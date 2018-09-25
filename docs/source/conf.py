@@ -18,12 +18,12 @@ sys.path.insert(0, os.path.abspath('../..'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'jMetalPy'
+project = 'jMetal'
 copyright = '2018, Antonio J. Nebro'
 author = 'Antonio J. Nebro, Antonio Benítez-Hidalgo'
 
 # The short X.Y version
-version = '0.5.1'
+version = '5.7.0'
 # The full version, including alpha/beta/rc tags
 release = ''
 
@@ -41,11 +41,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'javasphinx'
 ]
-
-#intersphinx mapping
-intersphinx_mapping = {
-    'abc' : ('http://def/', None)
-}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -85,7 +80,7 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 #
 html_theme = 'sphinx_rtd_theme'
-html_logo = 'jmetal.png'
+html_logo = 'jmetal-logo.png'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -112,7 +107,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'jMetalPydoc'
+htmlhelp_basename = 'jmetal-doc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -139,7 +134,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'jMetalPy.tex', 'jMetalPy Documentation',
+    (master_doc, 'jMetal.tex', 'jMetalPy Documentation',
      'Antonio J. Nebro', 'manual'),
 ]
 
@@ -149,7 +144,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'jmetalpy', 'jMetalPy Documentation',
+    (master_doc, 'jmetal', 'jMetal Documentation',
      [author], 1)
 ]
 
@@ -160,8 +155,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'jMetalPy', 'jMetalPy Documentation',
-     author, 'jMetalPy', 'One line description of project.',
+    (master_doc, 'jMetal', 'jMetal Documentation',
+     author, 'jMetal', 'One line description of project.',
      'Miscellaneous'),
 ]
 

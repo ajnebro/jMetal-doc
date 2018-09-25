@@ -1,7 +1,12 @@
 About
 ==============
 
-jMetal is being developed by `Antonio J. Nebro <http://www.lcc.uma.es/%7Eantonio/>`_, associate professor at the University of Málaga.
+jMetal is being developed by `Antonio J. Nebro <http://www.lcc.uma.es/%7Eantonio/>`_ (`email <antonio@lcc.uma.es>`_), associate professor at the University of Málaga,
+Juan J. Durillo (`email <juanjod@gmail.com>`_), Matthieu Vergne (`email <matthieu.vergne@gmail.com>`_) and `Antonio Benítez-Hidalgo <https://benhid.github.io/about/>`_ (`email <antonio.b@uma.es>`_).
+
+.. note::  Latest version: jMetal 5.6
+   Last update: September 4th 2018
+   This site was up in: 30th July 2015
 
 References
 --------------------------------
