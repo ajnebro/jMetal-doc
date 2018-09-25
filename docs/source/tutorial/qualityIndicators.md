@@ -83,6 +83,7 @@ Then, the `evaluate` method computes the indicator value by using the reference 
 Readers interested in how the Epsilon is computed can find all the code [here]( https://github.com/jMetal/jMetal/blob/jmetal-5.0/jmetal-core/src/main/java/org/uma/jmetal/qualityindicator/impl/Epsilon.java)
 
 ### About normalization
+
 An important issue to take into account is that quality indicators do not normalize the solution list to be evaluated. Instead, the user can choose if the fronts are normalized or not before using them.
 
 This piece of code shows an example of how reading a reference from a file and how to get a `FrontNormalized` from it:
@@ -101,7 +102,8 @@ List<Solution> population ;
 Front normalizedFront = frontNormalizer.normalize(new ArrayFront(population)) ;
 ```
 
-###Using quality indicators
+### Using quality indicators
+
 One we have decided about normalization, we can create a quality indicator and use it. We select the Hypervolume as an example:
 ```java
 Hypervolume<List<? extends Solution<?>>> hypervolume ;
@@ -110,10 +112,12 @@ hypervolume = new Hypervolume<List<? extends Solution<?>>>(referenceFront) ;
 double hvValue = hypervolume.evaluate(population) ;
 ```
 
-###Discussion
+### Discussion
+
 Leaving the normalization up to the user can be error prone, but there is a performance advantage: if the same indicator has to be applied to many solution lists, the normalization of the reference front is carried out only once. This is the case, for example, when some indicator-based algorithms have to find the solution contributing the least to the Hypervolume.
 
 ### Computing quality indicators from the command line
+
 If you need to compute the value of a given quality indicator of a front of solutions from the command line you can use the [`CommandLineIndicatorRunner`](https://github.com/jMetal/jMetal/blob/jmetal-5.0/jmetal-exec/src/main/java/org/uma/jmetal/qualityIndicator/CommandLineIndicatorRunner.java) class.
 
 The usage of this program is:

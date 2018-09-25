@@ -12,5 +12,5 @@ pip install git+https://github.com/bronto/javasphinx.git recommonmark
 Then, run:
 
 ```bash
-javasphinx-apidoc -o docs/source/ --title='API' /path/to/jMetal
+javasphinx-apidoc -o docs/source/ --title='API documentation' /path/to/jMetal
 ```

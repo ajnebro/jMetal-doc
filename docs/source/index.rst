@@ -1,7 +1,7 @@
 jMetal
-==================
+======
 
-jMetal stands for Metaheuristic Algorithms in Java, and it is an object-oriented Java-based framework for multi-objective optimization with metaheuristics.
+jMetal stands for **Met**aheuristic **Al**gorithms in Java, and it is an object-oriented Java-based framework for multi-objective optimization with metaheuristics.
 
 .. warning:: Documentation is WIP!! Some information may be missing.
 
@@ -23,6 +23,20 @@ jMetal 5 is the first major revision of jMetal since its initial version. The ar
 Now jMetal is a Maven project that is `hosted at GitHub <https://github.com/jMetal/jMetal>`_, where interested people can access to the current status of the project and are free to contribute.
 
 The former jMetal versions are still `available at SourceForge <http://jmetal.sourceforge.net/>`_.
+
+How to use it
+-------------
+
+You can find the last released versions of jMetal on the `Maven Central Repository <https://search.maven.org/search?q=g:org.uma.jmetal>`_.
+
+To use jMetal in your project, you need at least the `jmetal-core` artifact.
+It provides various components used to implement jMetal algorithms.
+To implement your own, you only need this package.
+
+jMetal comes with various algorithms already implemented, which you can obtain by adding the `jmetal-algorithm` artifact.
+If you are more interested in experimenting with your own algorithms, you can instead add the `jmetal-problem` artifact to obtain various problems to solve.
+You can of course add both of them to try combinations.
+If you want to go further by running and evaluating different combinations, you can finally add the `jmetal-exec` artifact, which comes with various utilities.
 
 Summary of features
 -------------------
