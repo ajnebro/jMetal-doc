@@ -1,5 +1,5 @@
-jMetal
-======
+API
+===
 
 .. toctree::
    :maxdepth: 2

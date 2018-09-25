@@ -5,4 +5,4 @@ python:
   version: 3.6
   pip_install: true
 
-requirements_file: docs/requirements.txt
+requirements_file: docs/requirements.readthedocs.txt

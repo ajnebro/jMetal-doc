@@ -1,0 +1,3 @@
+sphinx==1.6.3
+javasphinx==0.9.15
+recommonmark==0.4.0

@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=jMetalPy
+set SPHINXPROJ=jMetal-doc
 
 if "%1" == "" goto help
 
