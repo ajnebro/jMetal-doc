@@ -1,0 +1,104 @@
+.. java:import:: org.uma.jmetal.qualityindicator QualityIndicator
+
+.. java:import:: org.uma.jmetal.solution Solution
+
+.. java:import:: org.uma.jmetal.util.front Front
+
+.. java:import:: org.uma.jmetal.util.front.imp ArrayFront
+
+.. java:import:: org.uma.jmetal.util.front.util FrontNormalizer
+
+.. java:import:: org.uma.jmetal.util.front.util FrontUtils
+
+.. java:import:: org.uma.jmetal.util.naming.impl SimpleDescribedEntity
+
+.. java:import:: java.io BufferedReader
+
+.. java:import:: java.io FileInputStream
+
+.. java:import:: java.io InputStreamReader
+
+.. java:import:: java.util List
+
+.. java:import:: java.util StringTokenizer
+
+R2
+==
+
+.. java:package:: org.uma.jmetal.qualityindicator.impl
+   :noindex:
+
+.. java:type:: @SuppressWarnings public class R2<Evaluate extends List<? extends Solution<?>>> extends SimpleDescribedEntity implements QualityIndicator<Evaluate, Double>
+
+   TODO: Add comments here
+
+Constructors
+------------
+R2
+^^
+
+.. java:constructor:: public R2(Front referenceParetoFront)
+   :outertype: R2
+
+   Creates a new instance of the R2 indicator for a problem with two objectives and 100 lambda vectors
+
+R2
+^^
+
+.. java:constructor:: public R2()
+   :outertype: R2
+
+   Creates a new instance of the R2 indicator for a problem with two objectives and 100 lambda vectors
+
+R2
+^^
+
+.. java:constructor:: public R2(int nVectors)
+   :outertype: R2
+
+   Creates a new instance of the R2 indicator for a problem with two objectives and N lambda vectors
+
+R2
+^^
+
+.. java:constructor:: public R2(String file, Front referenceParetoFront) throws java.io.IOException
+   :outertype: R2
+
+   Constructor Creates a new instance of the R2 indicator for nDimensiosn It loads the weight vectors from the file fileName
+
+R2
+^^
+
+.. java:constructor:: public R2(int nVectors, Front referenceParetoFront)
+   :outertype: R2
+
+   Creates a new instance of the R2 indicator for a problem with two objectives and N lambda vectors
+
+R2
+^^
+
+.. java:constructor:: public R2(String file) throws java.io.IOException
+   :outertype: R2
+
+   Constructor Creates a new instance of the R2 indicator for nDimensiosn It loads the weight vectors from the file fileName
+
+Methods
+-------
+evaluate
+^^^^^^^^
+
+.. java:method:: @Override public Double evaluate(Evaluate solutionList)
+   :outertype: R2
+
+getName
+^^^^^^^
+
+.. java:method:: @Override public String getName()
+   :outertype: R2
+
+r2
+^^
+
+.. java:method:: public double r2(Front front)
+   :outertype: R2
+

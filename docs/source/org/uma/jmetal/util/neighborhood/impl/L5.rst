@@ -1,0 +1,24 @@
+.. java:import:: org.uma.jmetal.util.neighborhood.util TwoDimensionalMesh
+
+L5
+==
+
+.. java:package:: org.uma.jmetal.util.neighborhood.impl
+   :noindex:
+
+.. java:type:: @SuppressWarnings public class L5<S> extends TwoDimensionalMesh<S>
+
+   Class defining an L5 neighborhood of a solution belonging to a list of solutions which is structured as a bi-dimensional mesh. The neighbors are those solutions that are in the positions North, South, East and West Shape: * * o * *
+
+   :author: Antonio J. Nebro , Juan J. Durillo
+
+Constructors
+------------
+L5
+^^
+
+.. java:constructor:: public L5(int rows, int columns)
+   :outertype: L5
+
+   Constructor. Defines a neighborhood for a solution set of rows x columns solutions
+

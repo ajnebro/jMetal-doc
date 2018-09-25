@@ -1,0 +1,86 @@
+.. java:import:: java.util ArrayList
+
+.. java:import:: java.util List
+
+LZ09
+====
+
+.. java:package:: org.uma.jmetal.problem.multiobjective.lz09
+   :noindex:
+
+.. java:type:: public class LZ09
+
+   Base class to implement the problem of the lz09 benchmark, which is defined in: H. Li and Q. Zhang. Multiobjective optimization problem with complicated pareto sets, MOEA/D and NSGA-II. IEEE Transactions on Evolutionary Computation, 12(2):284-302, April 2009.
+
+Fields
+------
+dtype
+^^^^^
+
+.. java:field::  int dtype
+   :outertype: LZ09
+
+ltype
+^^^^^
+
+.. java:field::  int ltype
+   :outertype: LZ09
+
+nobj
+^^^^
+
+.. java:field::  int nobj
+   :outertype: LZ09
+
+nvar
+^^^^
+
+.. java:field::  int nvar
+   :outertype: LZ09
+
+ptype
+^^^^^
+
+.. java:field::  int ptype
+   :outertype: LZ09
+
+Constructors
+------------
+LZ09
+^^^^
+
+.. java:constructor:: public LZ09(int nvar, int nobj, int ptype, int dtype, int ltype)
+   :outertype: LZ09
+
+Methods
+-------
+alphaFunction
+^^^^^^^^^^^^^
+
+.. java:method::  void alphaFunction(double[] alpha, List<Double> x, int dim, int type)
+   :outertype: LZ09
+
+betaFunction
+^^^^^^^^^^^^
+
+.. java:method::  double betaFunction(List<Double> x, int type)
+   :outertype: LZ09
+
+objective
+^^^^^^^^^
+
+.. java:method::  void objective(List<Double> xVar, List<Double> yObj)
+   :outertype: LZ09
+
+psfunc2
+^^^^^^^
+
+.. java:method::  double psfunc2(double x, double t1, int dim, int type, int css)
+   :outertype: LZ09
+
+psfunc3
+^^^^^^^
+
+.. java:method::  double psfunc3(double x, double t1, double t2, int dim, int type)
+   :outertype: LZ09
+

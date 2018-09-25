@@ -1,0 +1,26 @@
+.. java:import:: org.uma.jmetal.solution Solution
+
+.. java:import:: org.uma.jmetal.util.neighborhood.util TwoDimensionalMesh
+
+L25
+===
+
+.. java:package:: org.uma.jmetal.util.neighborhood.impl
+   :noindex:
+
+.. java:type:: @SuppressWarnings public class L25<S extends Solution<?>> extends TwoDimensionalMesh<S>
+
+   Class representing neighborhoods for a solution into a list of solutions
+
+   :author: Esteban López Camacho
+
+Constructors
+------------
+L25
+^^^
+
+.. java:constructor:: public L25(int rows, int columns)
+   :outertype: L25
+
+   Constructor. Defines a neighborhood for solutionSetSize
+

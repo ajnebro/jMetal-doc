@@ -1,0 +1,48 @@
+.. java:import:: org.uma.jmetal.problem.impl AbstractDoubleProblem
+
+.. java:import:: org.uma.jmetal.solution DoubleSolution
+
+.. java:import:: org.uma.jmetal.util JMetalException
+
+.. java:import:: java.util ArrayList
+
+.. java:import:: java.util List
+
+LZ09F5
+======
+
+.. java:package:: org.uma.jmetal.problem.multiobjective.lz09
+   :noindex:
+
+.. java:type:: @SuppressWarnings public class LZ09F5 extends AbstractDoubleProblem
+
+   Class representing problem LZ09F5
+
+Constructors
+------------
+LZ09F5
+^^^^^^
+
+.. java:constructor:: public LZ09F5()
+   :outertype: LZ09F5
+
+   Creates a default LZ09F5 problem (30 variables and 2 objectives)
+
+LZ09F5
+^^^^^^
+
+.. java:constructor:: public LZ09F5(Integer ptype, Integer dtype, Integer ltype) throws JMetalException
+   :outertype: LZ09F5
+
+   Creates a LZ09F5 problem instance
+
+Methods
+-------
+evaluate
+^^^^^^^^
+
+.. java:method:: public void evaluate(DoubleSolution solution)
+   :outertype: LZ09F5
+
+   Evaluate() method
+

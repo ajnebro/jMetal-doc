@@ -1,0 +1,27 @@
+.. java:import:: org.uma.jmetal.util.neighborhood.util TwoDimensionalMesh
+
+C9
+==
+
+.. java:package:: org.uma.jmetal.util.neighborhood.impl
+   :noindex:
+
+.. java:type:: @SuppressWarnings public class C9<S> extends TwoDimensionalMesh<S>
+
+   Class defining an L9 neighborhood of a solution belonging to a list of solutions which is structured as a bi-dimensional mesh. The neighbors are those solutions that are in 1-hop distance Shape: * * * * o * * * *
+
+   :author: Antonio J. Nebro , Juan J. Durillo
+
+Constructors
+------------
+C9
+^^
+
+.. java:constructor:: public C9(int rows, int columns)
+   :outertype: C9
+
+   Constructor Defines a neighborhood for a solution set of rows x columns solutions
+
+   :param rows: the number of rows
+   :param columns: the number of columns
+

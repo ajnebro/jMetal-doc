@@ -1,0 +1,26 @@
+.. java:import:: org.uma.jmetal.solution Solution
+
+.. java:import:: org.uma.jmetal.util.neighborhood.util TwoDimensionalMesh
+
+C49
+===
+
+.. java:package:: org.uma.jmetal.util.neighborhood.impl
+   :noindex:
+
+.. java:type:: @SuppressWarnings public class C49<S extends Solution<?>> extends TwoDimensionalMesh<S>
+
+   Class defining an C49 neighborhood of a solution belonging to a list of solutions which is structured as a bi-dimensional mesh. The neighbors are those solutions that are in 3-hop distance or less Shape: * * * * * * * * * * * * * * * * * * * * * * * * o * * * * * * * * * * * * * * * * * * * * * * * *
+
+   :author: Esteban López Camacho
+
+Constructors
+------------
+C49
+^^^
+
+.. java:constructor:: public C49(int rows, int columns)
+   :outertype: C49
+
+   Constructor. Defines a neighborhood for solutionSetSize
+
