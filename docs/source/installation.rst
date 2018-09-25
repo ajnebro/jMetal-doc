@@ -48,6 +48,7 @@ Once you have downloaded the source code you can use the command line to build t
    :alt: jMetal in a terminal
 
 Then you have Maven to your disposal to work with the project:
+
 * `mvn clean`: cleaning the project
 * `mvn compile`: compiling
 * `mvn test`: testing

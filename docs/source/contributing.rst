@@ -1,11 +1,11 @@
 Contributing
 ================================================
 
-Contributions to the jMetalPy project are welcome.
+Contributions to the jMetal project are welcome.
 Please, take into account the following guidelines (all developers should follow these guidelines):
 
 Git WorkFlow
--------------------------------
+------------
 
 We have a set of branches on the remote Git server.
 Some branches are temporary, and others are constant throughout the life of the repository.

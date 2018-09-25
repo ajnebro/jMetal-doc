@@ -15,8 +15,8 @@ jMetal stands for Metaheuristic Algorithms in Java, and it is an object-oriented
    packages
    about
 
-About jMetal5
--------------
+About jMetal 5
+--------------
 
 jMetal 5 is the first major revision of jMetal since its initial version. The architecture have been redesigned from scratch to provide a simpler design while keeping the same functionality. The current version is jMetal 5.6.
 
