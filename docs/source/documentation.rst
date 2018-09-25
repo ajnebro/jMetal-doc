@@ -1,7 +1,17 @@
-jMetal
-============
+Documentation
+=============
 
 .. toctree::
    :maxdepth: 2
 
-   old_documentation/algorithm
+   tutorial/algorithm
+   tutorial/algorithmTemplates
+   tutorial/architecture
+   tutorial/evaluators
+   tutorial/experimentalStudies
+   tutorial/measures
+   tutorial/operator
+   tutorial/problem
+   tutorial/qualityIndicators
+   tutorial/running
+   tutorial/solution
