@@ -22,7 +22,8 @@ jMetal 5 is the first major revision of jMetal since its initial version. The ar
 
 Now jMetal is a Maven project that is `hosted at GitHub <https://github.com/jMetal/jMetal>`_, where interested people can access to the current status of the project and are free to contribute.
 
-The former jMetal versions are still `available at SourceForge <http://jmetal.sourceforge.net/>`_.
+.. note::
+   The former jMetal versions are still `available at SourceForge <http://jmetal.sourceforge.net/>`_.
 
 How to use it
 -------------

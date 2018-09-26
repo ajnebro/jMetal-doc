@@ -2,8 +2,11 @@
 
 The architecture of jMetal 5 relies on four interfaces: 
 
-.. figure:: _static/jMetal5CoreClassDiagram.png
-   :alt: jMetal architecture
+<p align="center">
+  <br/>
+  <img src=_static/jMetal5CoreClassDiagram.png alt="jMetal architecture">
+  <br/>
+</p>
    
 This diagram captures the typical functionality provided by jMetal: an `Algorithm` solves a `Problem` by manipulating a set of potential `Solution` objects through the use of several `Operators`. The `Solution` interface represents the individuals in evolutionary algorithms and the particles in the case of particle swarm optmization algorithms. A `Problem` can create new solutions and evaluate them. 
 Compared to previous versions of jMetal, there is not a class for the concept of population or swarm. In jMetal 5 a population is merely a list of solutions (`List<Solution>` in Java).
@@ -51,7 +54,11 @@ public interface Algorithm<Result> extends Runnable, Serializable, DescribedEnti
 
 jMetal 5 includes a hierarchy of classes that inherits from `Algorithm`, as depicted in the following diagram: 
 
-![jMetal architecture](https://github.com/jMetal/jMetalDocumentation/blob/master/figures/algorithmHierarchy.png)
+<p align="center">
+  <br/>
+  <img src=_static/algorithmHierarchy.png alt="jMetal architecture">
+  <br/>
+</p>
 
 On the one hand, we found a level of abstract classes (e.g., `AbstractEvolutionaryAlgorithm` or `AbstractParticleSwarmOptimization`) which constitute templates than can be used to facilitate the implementation of algorithms by reusing an extending the already provided code. On the other hand, we can see two examples of algorithms, MOEA/D and NSGAII45, which do not follow none of the provided templates. This way you are free to implement a new algorithm on your own or by extending some of the existing classes.
 
