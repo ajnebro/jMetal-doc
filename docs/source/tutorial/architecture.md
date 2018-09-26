@@ -4,7 +4,7 @@ The architecture of jMetal 5 relies on four interfaces:
 
 <p align="center">
   <br/>
-  <img src=_static/jMetal5CoreClassDiagram.png alt="jMetal architecture">
+  <img src=https://jmetal-doc.readthedocs.io/en/latest/_images/jMetal5CoreClassDiagram.png alt="jMetal architecture">
   <br/>
 </p>
    
@@ -56,7 +56,7 @@ jMetal 5 includes a hierarchy of classes that inherits from `Algorithm`, as depi
 
 <p align="center">
   <br/>
-  <img src=_static/algorithmHierarchy.png alt="jMetal architecture">
+  <img src=https://jmetal-doc.readthedocs.io/en/latest/_images/algorithmHierarchy.png alt="jMetal architecture">
   <br/>
 </p>
 
